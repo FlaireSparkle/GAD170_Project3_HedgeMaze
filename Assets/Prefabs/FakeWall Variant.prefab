@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3251897304528552549
+--- !u!1001 &7275164674632542102
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,20 +9,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.46
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.324523
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -46,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 4340918609892040790, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -54,12 +62,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4385841132349826460, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
       propertyPath: m_Name
-      value: Rose Wall
+      value: FakeWall Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 4519481023666574938, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 638930941f1ee4c428f30fbc4dc5d8c0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -1439,6 +1439,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5410670366950692050, guid: f497e7bd7fb505941ab00c79f897f881, type: 3}
+      propertyPath: jumpStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410670366950692050, guid: f497e7bd7fb505941ab00c79f897f881, type: 3}
+      propertyPath: walkSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410670366950692050, guid: f497e7bd7fb505941ab00c79f897f881, type: 3}
+      propertyPath: performJump
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410670366950692050, guid: f497e7bd7fb505941ab00c79f897f881, type: 3}
+      propertyPath: jumpStrength
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410670366950692050, guid: f497e7bd7fb505941ab00c79f897f881, type: 3}
+      propertyPath: jumpStrengthMin
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7020110684075466178, guid: f497e7bd7fb505941ab00c79f897f881, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.12

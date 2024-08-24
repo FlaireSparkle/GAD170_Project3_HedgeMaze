@@ -14,6 +14,10 @@ public class Player : MonoBehaviour
         LevelUp();
         
     }
+    public void CheckInventory()
+    {
+        
+    }
     private void LevelUp()
     {
         myLevel++;

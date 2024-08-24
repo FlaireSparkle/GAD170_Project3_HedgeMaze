@@ -5,12 +5,14 @@ using UnityEngine;
 public class Key : MonoBehaviour
 {
     public Item thisKey = new Item();
-
+    public PuzzlePieces puzzleReference;
 
     // Start is called before the first frame update
     void Start()
     {
-        thisKey.itemID = PuzzlePieces.PuzzleID.puzzleID;
+        puzzleReference = GetComponent<PuzzlePieces>();
+        thisKey.itemID = (int)puzzleReference.puzzleID;
+
         
     }
 

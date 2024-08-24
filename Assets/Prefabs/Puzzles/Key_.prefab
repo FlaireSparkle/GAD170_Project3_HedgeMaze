@@ -114,6 +114,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6032205024930004195}
+  - component: {fileID: 5673750884298376852}
   m_Layer: 0
   m_Name: Key_
   m_TagString: Untagged
@@ -137,3 +138,17 @@ Transform:
   - {fileID: 1812468692268087567}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5673750884298376852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7698088955232646737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa9943834340df43b1d8747612f06f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabID: 0
+  puzzleColour: 0

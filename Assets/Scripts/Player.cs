@@ -5,6 +5,7 @@ public class Player : MonoBehaviour
     public int myLevel = 0;
     public Stats myStats = new Stats();
     private int currentHealth = 0;
+    public Inventory inventory = new Inventory();
     // Start is called before the first frame update
     void Start()
     {

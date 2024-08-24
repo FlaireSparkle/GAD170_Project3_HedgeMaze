@@ -3,7 +3,9 @@ guid: caa9943834340df43b1d8747612f06f8
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - puzzleMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
+  - meshRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

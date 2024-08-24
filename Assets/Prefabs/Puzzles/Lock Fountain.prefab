@@ -548,6 +548,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6299563703857476510}
+  - component: {fileID: 6835877485352042929}
+  - component: {fileID: 1911209224378030136}
   m_Layer: 0
   m_Name: Lock Fountain
   m_TagString: Untagged
@@ -571,6 +573,34 @@ Transform:
   - {fileID: 8870667307022446368}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6835877485352042929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755426415195293887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f80e9a48c293014982997848ce21fd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1911209224378030136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755426415195293887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa9943834340df43b1d8747612f06f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puzzleID: 0
+  puzzleMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
+  meshRenderer: {fileID: 7550335533661099284}
+  type: Lock
 --- !u!1 &5770657538923949411
 GameObject:
   m_ObjectHideFlags: 0

@@ -1775,6 +1775,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1677888414}
     m_Modifications:
+    - target: {fileID: 1911209224378030136, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
+      propertyPath: puzzleID
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3755426415195293887, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
       propertyPath: m_Name
       value: Lock Fountain PURPLE
@@ -2344,6 +2348,10 @@ PrefabInstance:
     - target: {fileID: 5946803593356594684, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
       propertyPath: m_Name
       value: Doorway YELLOW
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335632256200813029, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
+      propertyPath: puzzleID
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3374,6 +3382,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1677888414}
     m_Modifications:
+    - target: {fileID: 1911209224378030136, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
+      propertyPath: puzzleID
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3755426415195293887, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
       propertyPath: m_Name
       value: Lock Fountain ORANGE
@@ -3458,6 +3470,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1677888414}
     m_Modifications:
+    - target: {fileID: 1911209224378030136, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
+      propertyPath: puzzleID
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3755426415195293887, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
       propertyPath: m_Name
       value: Lock Fountain BLUE
@@ -4782,6 +4798,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 611417158}
     m_Modifications:
+    - target: {fileID: 1895721667873949700, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
+      propertyPath: puzzleID
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6032205024930004195, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.4
@@ -5335,6 +5355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doorway RED
       objectReference: {fileID: 0}
+    - target: {fileID: 7335632256200813029, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
+      propertyPath: puzzleID
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5541,6 +5565,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1677888414}
     m_Modifications:
+    - target: {fileID: 1911209224378030136, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
+      propertyPath: puzzleID
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3755426415195293887, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
       propertyPath: m_Name
       value: Lock Fountain RED
@@ -6082,6 +6110,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 611417158}
     m_Modifications:
+    - target: {fileID: 1895721667873949700, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
+      propertyPath: puzzleID
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6032205024930004195, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.948
@@ -6192,6 +6224,10 @@ PrefabInstance:
     - target: {fileID: 5946803593356594684, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
       propertyPath: m_Name
       value: Doorway BLUE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7335632256200813029, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
+      propertyPath: puzzleID
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6348,6 +6384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 611417158}
     m_Modifications:
+    - target: {fileID: 1895721667873949700, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
+      propertyPath: puzzleID
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6032205024930004195, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -6513,6 +6553,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 611417158}
     m_Modifications:
+    - target: {fileID: 1895721667873949700, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
+      propertyPath: puzzleID
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6032205024930004195, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.18
@@ -6575,6 +6619,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 611417158}
     m_Modifications:
+    - target: {fileID: 1895721667873949700, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
+      propertyPath: puzzleID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6032205024930004195, guid: 852f17bbfa7cafe428748966d6ea325e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.038
@@ -6701,6 +6749,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7335632256200813029, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
+      propertyPath: puzzleID
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8609233013392916988, guid: 4a039bdef65df91468f129cfd5ce00a5, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6243783
@@ -6792,6 +6844,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1677888414}
     m_Modifications:
+    - target: {fileID: 1911209224378030136, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
+      propertyPath: puzzleID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3755426415195293887, guid: ff0ff6d4bb1391e428551a4118f6edbc, type: 3}
       propertyPath: m_Name
       value: Lock Fountain YELLOW

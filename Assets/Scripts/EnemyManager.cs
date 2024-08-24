@@ -5,25 +5,28 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour
 {
     //create a link to the monster prefabs
-    public GameObject enemyWeedPrefab;
-    public GameObject enemyCrabPrefab;
+    public GameObject areaBossPrefab;
+    public GameObject areaMobPrefab;
+    public int mobCount = 6;
+    public Vector3 spawnZoneMax;
+    public Vector3 spawnZoneMin;
     //create a list to manage the monsters
     public List<Monster> allEnemies = new List<Monster>();
-
+    
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < 6; i++)
+        for(int i = 0; i < mobCount; i++)
         {
-            float x = Random.Range(-10f, 10f);
-            float y = 1;
-            float z = Random.Range(-10f, 10f);
+            float x = Random.Range(spawnZoneMin.x,spawnZoneMax.x);
+            float y = Random.Range(spawnZoneMin.y, spawnZoneMax.y);
+            float z = Random.Range(spawnZoneMin.z,spawnZoneMax.z);
             Vector3 spawnPosition = new Vector3(x, y, z);
-            GameObject clone = Instantiate(enemyWeedPrefab, spawnPosition, Quaternion.identity);
+            GameObject clone = Instantiate(areaMobPrefab, spawnPosition, Quaternion.identity);
             allEnemies.Add(clone.GetComponent<Monster>());
         }
-        Instantiate(enemyCrabPrefab);
-        allEnemies.Add(enemyCrabPrefab.GetComponent<Monster>());
+        Instantiate(areaBossPrefab);
+        allEnemies.Add(areaBossPrefab.GetComponent<Monster>());
     }
 
     // Update is called once per frame

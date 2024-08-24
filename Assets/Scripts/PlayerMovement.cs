@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody))]
-public class Movement : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     Rigidbody rb;
  

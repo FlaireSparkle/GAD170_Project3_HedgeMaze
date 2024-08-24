@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: isBoss
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6877945137281811817, guid: b5513b13f103fca409520aafde34c9d5, type: 3}
+      propertyPath: monsterClass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7518203262761300966, guid: b5513b13f103fca409520aafde34c9d5, type: 3}
       propertyPath: m_LocalScale.x
       value: 2

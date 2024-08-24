@@ -19,13 +19,6 @@ public class Monster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-
-        ////if the monster's location is Vector3(-30,0.119345188,30.6000004) set it to Crab 
-        //if (transform = (-30, 0.119345188, 30.6000004))
-        //{ 
-        //    isCrab = true; 
-        //}
         StatCreation();
     }
     
@@ -42,7 +35,7 @@ public class Monster : MonoBehaviour
             { 
                 meshRenderer.material = weedMaterial;
                 //set material to randomcolour
-                meshRenderer.material.color = new Color(Random.Range(0.25f, 0.5f), Random.Range(0.25f, 1f), Random.Range(0.25f, 1f));
+                meshRenderer.material.color = new Color(Random.Range(0.25f, 1f), Random.Range(0.25f, 0.8f), Random.Range(0f, 0.75f));
                 break; 
             }
             case MonsterClass.Crab:

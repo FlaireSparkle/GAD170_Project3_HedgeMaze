@@ -64,6 +64,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FakeWall Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4519481023666574938, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 638930941f1ee4c428f30fbc4dc5d8c0, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

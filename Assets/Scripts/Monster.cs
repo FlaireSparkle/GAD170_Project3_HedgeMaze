@@ -14,7 +14,7 @@ public class Monster : MonoBehaviour
     public Material crabMaterial;
     public MeshRenderer meshRenderer;
 
-    public enum MonsterClass {Weed,Crab};
+    public enum MonsterClass {Weed,Crab,RoseBush};
     public MonsterClass monsterClass;
     // Start is called before the first frame update
     void Start()
@@ -29,6 +29,7 @@ public class Monster : MonoBehaviour
     }
     public void StatCreation()
     {
+        //change matireal
         switch (monsterClass)
         {
             case MonsterClass.Weed:
@@ -44,9 +45,14 @@ public class Monster : MonoBehaviour
                 meshRenderer.material = crabMaterial;
                 break; 
             }
+            case MonsterClass.RoseBush:
+            {
+                break;
+            }
         }         
         //change object name to match class
         name = myClass;
+        //give monster appropriate stats
         myStats.SetStats(myClass, myLevel);
        
     }

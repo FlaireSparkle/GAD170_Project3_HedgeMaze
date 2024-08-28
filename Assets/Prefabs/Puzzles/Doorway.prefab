@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 67694050322778740}
   - component: {fileID: 4566431501107468246}
   - component: {fileID: 7335632256200813029}
+  - component: {fileID: 5396669306945953897}
   m_Layer: 0
   m_Name: Doorway
   m_TagString: Untagged
@@ -364,6 +365,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8004f31f5f3f6cd4291ee4207064c9b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  portalLocation: 0
+  portalActivated: 0
 --- !u!114 &7335632256200813029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,6 +386,27 @@ MonoBehaviour:
   completedPuzzleMeshRenderer: {fileID: 4118772518988230960}
   objectType: Archway
   isOpen: 0
+--- !u!65 &5396669306945953897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5946803593356594684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5, y: 10, z: 5}
+  m_Center: {x: 1.8, y: 0, z: -1.2}
 --- !u!1 &6647743375891385192
 GameObject:
   m_ObjectHideFlags: 0
@@ -396,7 +420,7 @@ GameObject:
   - component: {fileID: 8424839787138927905}
   - component: {fileID: 8311347304256503223}
   m_Layer: 0
-  m_Name: Door
+  m_Name: VisableDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

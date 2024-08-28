@@ -24,11 +24,11 @@ public class Key : MonoBehaviour
 
     }
     //ontriggerenter check for collision
-    private void OnTriggerEnter(Collider thingIHit)
+    private void OnTriggerEnter(Collider collider)
     {
-        Debug.Log((thingIHit.transform.name) + " has entered the pickup box");
+        Debug.Log((collider.transform.name) + " has entered the pickup box");
         //if the collision is a player
-        if (thingIHit.transform.GetComponent<Player>())
+        if (collider.transform.GetComponent<Player>())
         {
 
             //if collided add id code to player inventory

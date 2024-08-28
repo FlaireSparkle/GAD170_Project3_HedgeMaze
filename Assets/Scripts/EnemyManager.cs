@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
 {
+    #region Area Boss
     //create a link to the monster prefabs
     public GameObject areaBossPrefab;
+    public Vector3 bossSpawnLocation;
+    #endregion
+    #region Area Mob
     public GameObject areaMobPrefab;
     public int mobCount = 6;
     public Vector3 spawnZoneMax;
     public Vector3 spawnZoneMin;
     //create a list to manage the monsters
     public List<Monster> allEnemies = new List<Monster>();
-    
+    #endregion
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +29,7 @@ public class EnemyManager : MonoBehaviour
             GameObject clone = Instantiate(areaMobPrefab, spawnPosition, Quaternion.identity);
             allEnemies.Add(clone.GetComponent<Monster>());
         }
-        Instantiate(areaBossPrefab);
+        Instantiate(areaBossPrefab, bossSpawnLocation, Quaternion.identity);
         allEnemies.Add(areaBossPrefab.GetComponent<Monster>());
     }
 

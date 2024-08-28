@@ -5,12 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public GameObject playerPrefab;
+    public Vector3 spawnLocation;
 
     // Start is called before the first frame update
     void Start()
     {
-        //create Player
-        Instantiate(playerPrefab);
+        //create Player at set location Vector3(-30,0.119345188,30.6000004)
+        Instantiate(playerPrefab, spawnLocation,Quaternion.identity);
         //send player to location in portal room
 
     }

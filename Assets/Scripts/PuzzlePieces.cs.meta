@@ -5,7 +5,9 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - puzzleMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
-  - meshRenderer: {instanceID: 0}
+  - furnitureMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
+  - puzzleMeshRenderer: {instanceID: 0}
+  - completedPuzzleMeshRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

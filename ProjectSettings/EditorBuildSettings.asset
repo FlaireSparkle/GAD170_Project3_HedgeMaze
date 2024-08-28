@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
+    path: Assets/Scenes/0_StartMenu.unity
     guid: 3144a4e22b7970c4b860501098c3a631
   - enabled: 1
-    path: Assets/Scenes/HedgeMaze.unity
+    path: Assets/Scenes/1_HedgeMaze.unity
     guid: 4276ba1c36838fa48b9c2598e5637872
   m_configObjects: {}

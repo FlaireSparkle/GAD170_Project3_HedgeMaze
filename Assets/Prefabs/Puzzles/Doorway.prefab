@@ -378,8 +378,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzleID: 0
   puzzleMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
-  meshRenderer: {fileID: 8424839787138927905}
-  type: Door
+  furnitureMaterial: {fileID: 2100000, guid: b416e1c03c9a24d4ebcbdd8926499119, type: 2}
+  puzzleMeshRenderer: {fileID: 8424839787138927905}
+  completedPuzzleMeshRenderer: {fileID: 4118772518988230960}
+  objectType: Archway
+  isOpen: 0
 --- !u!1 &6647743375891385192
 GameObject:
   m_ObjectHideFlags: 0

@@ -600,8 +600,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzleID: 0
   puzzleMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
-  meshRenderer: {fileID: 7550335533661099284}
-  type: Lock
+  furnitureMaterial: {fileID: 2100000, guid: 6f8f8d9d7e0f82042bec268582913943, type: 2}
+  puzzleMeshRenderer: {fileID: 7550335533661099284}
+  completedPuzzleMeshRenderer: {fileID: 5102220187272713865}
+  objectType: Lock
+  isOpen: 0
 --- !u!1 &5770657538923949411
 GameObject:
   m_ObjectHideFlags: 0

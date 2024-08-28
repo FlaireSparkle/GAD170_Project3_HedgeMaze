@@ -63,5 +63,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4385841132349826460, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8690244799625998172}
   m_SourcePrefab: {fileID: 100100000, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
+--- !u!1 &1296100026039904249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4385841132349826460, guid: 955e9d38b27a3c345a939511d168419d, type: 3}
+  m_PrefabInstance: {fileID: 3251897304528552549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8690244799625998172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296100026039904249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f823e0295dbfb34e9264d7dedc0a327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myClass: RoseBush
+  myLevel: 1
+  myStats:
+    maxHealth: 0
+    attack: 0
+    defence: 0
+  weedMaterial: {fileID: 0}
+  crabMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  monsterClass: 2

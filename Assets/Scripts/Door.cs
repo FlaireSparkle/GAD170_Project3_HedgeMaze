@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static PuzzlePieces;
 
 public class Door : MonoBehaviour
 {
+
     private bool portalActivated = false;
     // link to door object
+    
+    public void Start()
+    {
+        //name = (ToString(GetComponent(PuzzlePieces.puzzleID))) + " Doorway";
+    }
     public void Update()
     {
         //if ((portalActivated==true)&&())
